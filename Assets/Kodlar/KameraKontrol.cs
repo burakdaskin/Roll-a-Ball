@@ -9,11 +9,11 @@ public class KameraKontrol : MonoBehaviour
 
     void Start()
     {
-        aradakiMesafe = transform.position - top.transform.position;
+        aradakiMesafe = transform.position - top.transform.position; // kamera ile top arasindaki mesafe farkini verir
     }
 
-    void LateUpdate() //kamera titremesi olmuyor
+    void LateUpdate() // kamera titremesi olmuyor
     {
-        transform.position = top.transform.position + aradakiMesafe;
+        transform.position = top.transform.position + aradakiMesafe; // kamera ile top arasi mesafeyi sabitleyip kameraya topu takip ettiriyor
     }
 }

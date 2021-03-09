@@ -11,6 +11,6 @@ public class ToplanacakObjeler : MonoBehaviour
 
     void Update()
     {
-        transform.Rotate(new Vector3(15,30,45)*Time.deltaTime);
+        transform.Rotate(new Vector3(15,30,45)*Time.deltaTime); // objeleri döndürüyor, time.deltatime ise yavaþ döndürmeye yarýyor
     }
 }
