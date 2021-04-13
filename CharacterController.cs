@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Rigidbody))] //Scripti ekledigimiz objeye otomatik olarak Rigidbody komponentini de ekliyor.
 public class CharacterController : MonoBehaviour
 {
     /* Sorunsuz bir sekilde çalismasi için sahnenizde "Door" isimli bir obje, "Finish" isimli bir obje, "Key" Tag'li 3 obje bulunmasi gerekiyor.
